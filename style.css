@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: darkgray;
+}
+
+#title{
+    padding-top: 20px;
+    padding-left:20px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    top: 100px;
+    border-radius: 30px;
+    border: 5px solid black;
+
+    
+}
+
+.fadeIn{
+    opacity: 1;
+    transition: 0.7s opacity;
+}
+
+.fadeOut{
+    opacity: 0.2;
+    transition: none;
+}
+
+.row1{
+    padding-left: 100px;
+}
+.row2{
+    padding-left: 100px;
+}
+.boxes{
+
+}
+
+#red{
+    background-color: red;
+}
+
+#green{
+    background-color: green;
+}
+
+#blue{
+    background-color: blue;
+    opacity: 1;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+.fade {
+    opacity: 0.5;
+    transition: none;
+}
